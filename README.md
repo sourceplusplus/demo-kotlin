@@ -5,8 +5,9 @@
 
 ## What is this?
 
-This project holds standalone demonstrations of Source++ features available for Kotlin applications. These demonstrations are meant to
-be used as a reference for how to use Source++ in your own projects.
+This project holds Kotlin-based feature demonstrations for [Source++](https://github.com/sourceplusplus/sourceplusplus),
+the open-source live coding platform. These demonstrations are meant to be used as a reference for how to use Source++
+in your own projects.
 
 ## How to use?
 
@@ -22,7 +23,8 @@ Once the plugin is installed, check out the demos below. Each demo contains inst
 ### [Tail Logs](./src/main/kotlin/spp/demo/command/TailLogs.kt)
 
 This demonstration shows how to tail logs from a running application. Logs can be filtered by individual statements,
-methods, and classes. The **Tail Logs** command works for any application that uses a logging framework that is supported by Source++.
+methods, and classes. The **Tail Logs** command works for any application that uses a logging framework that is
+supported by Source++.
 
 For more information, see the Javadocs in the [Tail Logs](./src/main/kotlin/spp/demo/command/TailLogs.kt) class.
 
