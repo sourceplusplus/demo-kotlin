@@ -26,7 +26,7 @@ This demonstration shows how to tail logs from a running application. Logs can b
 methods, and classes. The **Tail Logs** command works for any application that uses a logging framework that is
 supported by Source++.
 
-For more information, see the Javadocs in the [Tail Logs](./src/main/kotlin/spp/demo/command/TailLogs.kt) class.
+For more information, see the [TailLogs](./src/main/kotlin/spp/demo/command/TailLogs.kt) class.
 
 ## Bugs & Features
 
