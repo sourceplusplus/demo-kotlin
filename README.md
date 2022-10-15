@@ -18,7 +18,9 @@ Alternatively, you can download the Source++ plugin directly from [here](https:/
 
 Once the plugin is installed, check out the demos below. Each demo contains instructions explaining how to use it.
 
-> Note: You do not need to run this code to play with the demos. This application is hosted on our publicly accessible servers.
+> **Note**
+>
+> You do not need to run this code to use the demos. This application is hosted on our publicly accessible servers.
 
 ## Demos
 
