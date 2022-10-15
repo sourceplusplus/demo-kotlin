@@ -20,7 +20,7 @@ Once the plugin is installed, check out the demos below. Each demo contains inst
 
 > **Note**
 >
-> You do not need to run any code to use the demos. This application is hosted on our publicly accessible servers.
+> You do not need to run any code for these demos. This application is hosted on our publicly accessible servers.
 
 ## Demos
 
