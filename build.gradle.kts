@@ -1,5 +1,6 @@
 plugins {
     kotlin("jvm") version "1.6.10"
+    kotlin("kapt") version "1.6.10"
     id("application")
     id("com.ryandens.javaagent-application") version "0.3.2"
 }
@@ -23,7 +24,7 @@ dependencies {
 
     //used for endpoint indicators
     implementation("io.micronaut:micronaut-http-server-netty:3.6.4")
-    annotationProcessor("io.micronaut:micronaut-inject-java:3.6.4")
+    kapt("io.micronaut:micronaut-inject-java:3.6.4")
 }
 
 application {
