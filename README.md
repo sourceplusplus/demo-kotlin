@@ -14,7 +14,8 @@ in your own projects.
 ## How to use?
 
 Install the Source++ plugin via the JetBrains Marketplace by searching for: `Source++`.
-Alternatively, you can download the Source++ plugin directly from [here](https://plugins.jetbrains.com/plugin/12033-source-).
+Alternatively, you can download the Source++ plugin directly
+from [here](https://plugins.jetbrains.com/plugin/12033-source-).
 
 Once the plugin is installed, check out the demos below. Each demo contains instructions explaining how to use it.
 
@@ -22,15 +23,40 @@ Once the plugin is installed, check out the demos below. Each demo contains inst
 >
 > You do not need to run any code for these demos. This application is hosted on our publicly accessible servers.
 
-## Demos
+## Demo: Live Commands
 
-### [Tail Logs](./src/main/kotlin/spp/demo/command/TailLogs.kt)
+> Live Commands allow you to execute user-defined actions. These commands have access to application runtime data and
+> can be used to gather metrics, trigger alerts, or perform other actions.
 
-This demonstration shows how to tail logs from a running application. Logs can be filtered by individual statements,
-methods, and classes. The **Tail Logs** command works for any application that uses a logging framework that is
-supported by Source++.
+#### [Tail Logs](./src/main/kotlin/spp/demo/command/TailLogs.kt)
 
-For more information, see the [TailLogs](./src/main/kotlin/spp/demo/command/TailLogs.kt) class.
+This demonstration shows how to follow existing logs from a running application. The **Tail Logs** command works with
+most logging frameworks, including Log4j, Logback, and SLF4J.
+
+## Demo: Live Indicators
+
+> Live Indicators allow you to automatically display user-defined metrics in the IDE. These metrics can be used to
+> monitor the health of your application or provide insight into the current state of the application.
+
+#### [Failing Endpoint](./src/main/kotlin/spp/demo/indicator/FailingEndpoint.kt)
+
+This demonstration shows how failing endpoints can be detected and displayed in the IDE. The **Failing Endpoint**
+indicator is useful for identifying endpoints that are actively failing and require attention.
+
+#### [High Load Endpoint](./src/main/kotlin/spp/demo/indicator/HighLoadEndpoint.kt)
+
+This demonstration shows how high load endpoints can be detected and displayed in the IDE. The **High Load Endpoint**
+indicator is useful for identifying endpoints that are experiencing high load and may require scaling.
+
+#### [Slow Endpoint](./src/main/kotlin/spp/demo/indicator/SlowEndpoint.kt)
+
+This demonstration shows how slow endpoints can be detected and displayed in the IDE. The **Slow Endpoint** indicator
+is useful for identifying endpoints that are experiencing slow response times and may require optimization.
+
+#### [Unused Endpoint](./src/main/kotlin/spp/demo/indicator/UnusedEndpoint.kt)
+
+This demonstration shows how unused endpoints can be detected and displayed in the IDE. The **Unused Endpoint**
+indicator is useful for identifying endpoints that are not being used and may be able to be removed.
 
 ## Bugs & Features
 
