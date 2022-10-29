@@ -4,7 +4,6 @@ import org.slf4j.LoggerFactory
 import java.util.concurrent.ThreadLocalRandom
 
 /**
- *
  * This class is used to demonstrate the `Add Log` command.
  *
  * **Usage:**
@@ -12,7 +11,6 @@ import java.util.concurrent.ThreadLocalRandom
  *
  * **Command source code:**
  * [Add Log](https://github.com/sourceplusplus/jetbrains-commander/blob/master/resources/.spp/plugins/add-log/plugin.kts)
- *
  */
 class AddLog {
 

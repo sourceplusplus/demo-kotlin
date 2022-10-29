@@ -3,7 +3,6 @@ package spp.demo.command
 import java.util.concurrent.ThreadLocalRandom
 
 /**
- *
  * This class is used to demonstrate the `Add Breakpoint` command.
  *
  * **Usage:**
@@ -11,7 +10,6 @@ import java.util.concurrent.ThreadLocalRandom
  *
  * **Command source code:**
  * [Add Breakpoint](https://github.com/sourceplusplus/jetbrains-commander/blob/master/resources/.spp/plugins/add-breakpoint/plugin.kts)
- *
  */
 class AddBreakpoint {
 
@@ -24,7 +22,6 @@ class AddBreakpoint {
      * status of the breakpoint and will be marked as **Complete** once the breakpoint is hit. Once the breakpoint
      * is hit, the breakpoint status inlay can be expanded to show a table of the breakpoint hits. Clicking on a
      * breakpoint hit will open the breakpoint hit data in the traditional debugger variables view.
-     *
      */
     fun simpleBreakpoint() {
         val randomNumber = ThreadLocalRandom.current().nextInt()
