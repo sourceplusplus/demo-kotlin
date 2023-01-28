@@ -30,7 +30,10 @@ object Main {
     }
 
     private fun triggerAddBreakpoint() {
-        AddBreakpoint().simpleBreakpoint()
+        AddBreakpoint().apply {
+            simpleBreakpoint()
+            breakpointWithRedactedData()
+        }
     }
 
     private fun triggerAddLog() {
