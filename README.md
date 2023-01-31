@@ -28,10 +28,55 @@ Once the plugin is installed, check out the demos below. Each demo contains inst
 > Live Commands allow you to execute user-defined actions. These commands have access to application runtime data and
 > can be used to gather metrics, trigger alerts, or perform other actions.
 
+#### [Add Breakpoint](./src/main/kotlin/spp/demo/command/AddBreakpoint.kt)
+
+<details>
+<summary>Command Preview</summary>
+<img src="https://raw.githubusercontent.com/sourceplusplus/sourceplusplus/master/.github/media/screencasts/add-breakpoint.gif"/>
+</details>
+
+This demonstration shows how to add a "non-breaking breakpoint" to a running application. The **Add Breakpoint** command
+is useful for debugging production applications without impacting the end user.
+
+#### [Add Log](./src/main/kotlin/spp/demo/command/AddLog.kt)
+
+<details>
+<summary>Command Preview</summary>
+<img src="https://raw.githubusercontent.com/sourceplusplus/sourceplusplus/master/.github/media/screencasts/add-log.gif"/>
+</details>
+
+This demonstration shows how to add a log statement to a running application. The **Add Log** command is useful for
+increasing the verbosity of a running application with logs that output directly into the IDE.
+
 #### [Tail Logs](./src/main/kotlin/spp/demo/command/TailLogs.kt)
+
+<details>
+<summary>Command Preview</summary>
+<img src="https://raw.githubusercontent.com/sourceplusplus/sourceplusplus/master/.github/media/screencasts/view-logs.gif"/>
+</details>
 
 This demonstration shows how to follow existing logs from a running application. The **Tail Logs** command works with
 most logging frameworks, including Log4j, Logback, and SLF4J.
+
+#### [View Activity](./src/main/kotlin/spp/demo/command/ViewActivity.kt)
+
+<details>
+<summary>Command Preview</summary>
+<img src="https://raw.githubusercontent.com/sourceplusplus/sourceplusplus/master/.github/media/screencasts/view-activity.gif"/>
+</details>
+
+This demonstration shows how to view the activity of an endpoint. The **View Activity** command is useful for
+monitoring the throughput, latency, and error rate of a given endpoint.
+
+#### [View Traces](./src/main/kotlin/spp/demo/command/ViewTraces.kt)
+
+<details>
+<summary>Command Preview</summary>
+<img src="https://raw.githubusercontent.com/sourceplusplus/sourceplusplus/master/.github/media/screencasts/view-traces.gif"/>
+</details>
+
+This demonstration shows how to view the traces of an endpoint. The **View Traces** command is useful for exploring
+the execution path of a given endpoint.
 
 ## Demo: Live Indicators
 
