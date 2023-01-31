@@ -65,10 +65,10 @@ object Main {
         callEndpoint("/indicator/slow-1000ms")
 
         //high load endpoint indicator
-        for (i in 0..3) {
+        for (i in 1..4) {
             callEndpoint("/indicator/high-load-four-per-second")
         }
-        for (i in 0..1) {
+        for (i in 1..2) {
             callEndpoint("/indicator/high-load-two-per-second")
         }
     }
