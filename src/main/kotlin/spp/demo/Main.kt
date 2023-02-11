@@ -50,6 +50,10 @@ object Main {
     }
 
     private fun triggerEndpoints() {
+        //function duration insight
+        callEndpoint("/insight/slow-function")
+        callEndpoint("/insight/fast-function")
+
         //view activity command
         callEndpoint("/command/view-activity")
 
