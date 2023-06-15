@@ -1,6 +1,6 @@
 plugins {
-    kotlin("jvm") version "1.8.21"
-    kotlin("kapt") version "1.8.21"
+    kotlin("jvm") version "1.8.22"
+    kotlin("kapt") version "1.8.22"
     id("application")
     id("com.ryandens.javaagent-application") version "0.3.2"
 }
